@@ -354,8 +354,8 @@
                     text: '{{$me->message}}',
                     icon: 'info'
                 });
-            }, 1000); // 5000 milliseconds = 5 seconds
-        });
+            }, 1000); // 5000                                         milliseconds = 5 seconds
+        }) ;
     </script>
     <script>
         $(document).ready(function() {

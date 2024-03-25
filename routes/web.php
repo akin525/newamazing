@@ -1,10 +1,18 @@
 <?php
 
+use app\Http\Controllers\admin\CandCController;
+use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\admin\Easy;
 use app\Http\Controllers\admin\HonorApi;
-use app\Http\Controllers\admin\LoginController;
+use App\Http\Controllers\admin\LoginController;
+use app\Http\Controllers\admin\McdController;
+use app\Http\Controllers\admin\ProductController;
+use app\Http\Controllers\admin\SetController;
 use app\Http\Controllers\admin\TransactionController;
+use app\Http\Controllers\admin\UsersController;
+use app\Http\Controllers\admin\VertualAController;
 use App\Http\Controllers\AirtimeController;
-use app\Http\Controllers\AlltvController;
+use App\Http\Controllers\AlltvController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BillController;
 use App\Http\Controllers\EducationController;
@@ -13,6 +21,7 @@ use App\Http\Controllers\FundController;
 use App\Http\Controllers\listdata;
 use App\Http\Controllers\PdfController;
 use App\Http\Controllers\RefersController;
+use App\Http\Controllers\RenoController;
 use App\Http\Controllers\ResellerController;
 use App\Http\Controllers\Transaction1Controller;
 use App\Http\Controllers\UserController;
