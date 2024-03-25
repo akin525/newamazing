@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\VertualController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::post('paylony', [VertualController::class, 'run2'])->name('paylony');
+Route::post('run1', [VertualController::class, 'run1'])->name('run1');
+Route::post('run', [VertualController::class, 'run'])->name('run');
+Route::post('web', [VertualController::class, 'honor'])->name('web');
