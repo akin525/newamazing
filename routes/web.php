@@ -1,16 +1,16 @@
 <?php
 
-use app\Http\Controllers\admin\CandCController;
+use App\Http\Controllers\admin\CandCController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\Easy;
 use app\Http\Controllers\admin\HonorApi;
 use App\Http\Controllers\admin\LoginController;
-use app\Http\Controllers\admin\McdController;
-use app\Http\Controllers\admin\ProductController;
-use app\Http\Controllers\admin\SetController;
-use app\Http\Controllers\admin\TransactionController;
-use app\Http\Controllers\admin\UsersController;
-use app\Http\Controllers\admin\VertualAController;
+use App\Http\Controllers\admin\McdController;
+use App\Http\Controllers\admin\ProductController;
+use App\Http\Controllers\admin\SetController;
+use App\Http\Controllers\admin\TransactionController;
+use App\Http\Controllers\admin\UsersController;
+use App\Http\Controllers\admin\VertualAController;
 use App\Http\Controllers\AirtimeController;
 use App\Http\Controllers\AlltvController;
 use App\Http\Controllers\AuthController;
