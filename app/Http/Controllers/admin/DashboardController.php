@@ -62,7 +62,7 @@ public function dashboard(Request $request)
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://pay.sammighty.com.ng/api/dashboard',
+            CURLOPT_URL => 'https://test.passiondrivefootballmanagement.com/api/dashboard',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,

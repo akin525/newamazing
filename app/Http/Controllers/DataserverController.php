@@ -53,7 +53,7 @@ class DataserverController extends Controller
     {
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://pay.sammighty.com.ng/api/data",
+            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/data",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
