@@ -59,34 +59,34 @@ public function dashboard(Request $request)
         }
 //        $resellerURL = 'https://integration.mcd.5starcompany.com.ng/api/reseller/';
 //
-//        $curl = curl_init();
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://pay.sammighty.com.ng/api/dashboard',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_SSL_VERIFYPEER => 0,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_HTTPHEADER => array(
+                'apikey: sk-ui8pjndeJA3ATMNIhgHw'
+            ),
+        ));
+
+        $response = curl_exec($curl);
 //
-//        curl_setopt_array($curl, array(
-//            CURLOPT_URL => 'https://pay.sammighty.com.ng/api/dashboard',
-//            CURLOPT_RETURNTRANSFER => true,
-//            CURLOPT_ENCODING => '',
-//            CURLOPT_MAXREDIRS => 10,
-//            CURLOPT_TIMEOUT => 0,
-//            CURLOPT_FOLLOWLOCATION => true,
-//            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-//            CURLOPT_SSL_VERIFYHOST => 0,
-//            CURLOPT_SSL_VERIFYPEER => 0,
-//            CURLOPT_CUSTOMREQUEST => 'GET',
-//            CURLOPT_HTTPHEADER => array(
-//                'apikey: sk-ui8pjndeJA3ATMNIhgHw'
-//            ),
-//        ));
-//
-//        $response = curl_exec($curl);
-//
-//        curl_close($curl);
+        curl_close($curl);
 //        echo $response;
 
 //                                                        return $response;
-//        $data = json_decode($response, true);
+        $data = json_decode($response, true);
 //        $success = $data["success"];
-//        $tran = $data["user"]["wallet"];
-        $tran = 0;
+        $tran = $data["user"]["wallet"];
+//        $tran = 0;
         $today = Carbon::now()->format('Y-m-d');
 
 
