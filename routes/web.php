@@ -39,6 +39,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('checkline', [DashboardController::class, 'dashboard1'])->name('checkline');
+
+
 Route::post('log', [AuthController::class, 'customLogin'])->name('log');
 Route::get('/', [AuthController::class, 'landing']);
 Route::post('passw', [AuthController::class, 'pass'])->name('passw');

@@ -130,6 +130,37 @@ public function dashboard(Request $request)
     return redirect("admin/login")->with('status', 'You are not allowed to access');
 
 }
+public function dashboard1(Request $request)
+{
+//        $resellerURL = 'https://integration.mcd.5starcompany.com.ng/api/reseller/';
+//
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://pay.sammighty.com.ng/api/dashboard',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_SSL_VERIFYPEER => 0,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_HTTPHEADER => array(
+                'apikey: sk-ui8pjndeJA3ATMNIhgHw'
+            ),
+        ));
+
+        $response = curl_exec($curl);
+//
+        curl_close($curl);
+//        echo $response;
+
+                                                        return $response;
+
+
+}
 public function mcdtran()
 {
     if (Auth()->user()->role == "admin") {
