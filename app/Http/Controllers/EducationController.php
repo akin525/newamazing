@@ -127,7 +127,7 @@ $request->validate([
         ]);
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/waec",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/waec",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -240,7 +240,7 @@ public function neco(Request $request)
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/neco",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/neco",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -350,7 +350,7 @@ public function nabteb(Request $request)
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/nabteb",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/nabteb",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -463,7 +463,7 @@ public function Jamb(Request $request)
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/jamb",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/jamb",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -518,7 +518,7 @@ public function verifyJamb($request)
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/verifyid",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/verifyid",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -547,7 +547,7 @@ public function verifyde($request)
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/verifyid",
+            CURLOPT_URL => "https://pay.sammighty.com.ng/api/verifyid",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,

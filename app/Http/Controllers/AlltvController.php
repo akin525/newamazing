@@ -162,7 +162,7 @@ foreach ($plan as $pla) {
 
                     $curl = curl_init();
                     curl_setopt_array($curl, array(
-                        CURLOPT_URL => "https://test.passiondrivefootballmanagement.com/api/paytv",
+                        CURLOPT_URL => "https://pay.sammighty.com.ng/api/paytv",
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_ENCODING => "",
                         CURLOPT_MAXREDIRS => 10,

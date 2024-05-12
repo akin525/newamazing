@@ -318,7 +318,7 @@ $success=0;
 
             $user->wallet = $gt;
             $user->save();
-            $resellerURL = 'https://test.passiondrivefootballmanagement.com/api/airtime';
+            $resellerURL = 'https://pay.sammighty.com.ng/api/airtime';
 
 
             $curl = curl_init();
