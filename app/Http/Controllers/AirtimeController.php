@@ -256,9 +256,9 @@ $success=0;
                 ]);
 
             } elseif ($data['success']== 'false') {
-                $zo = $user->wallet + $request->amount;
-                $user->wallet = $zo;
-                $user->save();
+//                $zo = $user->wallet + $request->amount;
+//                $user->wallet = $zo;
+//                $user->save();
                 $success=0;
                 $name = 'Airtime';
                 $am = "NGN $request->amount Was Refunded To Your Wallet";

@@ -239,9 +239,9 @@ class BillController extends Controller
                     }else{
 
                         $success = 0;
-                        $zo = $user->wallet + $amount;
-                        $user->wallet = $zo;
-                        $user->save();
+//                        $zo = $user->wallet + $amount;
+//                        $user->wallet = $zo;
+//                        $user->save();
                         $update = bo::where('id', $bo->id)->update([
                             'server_res' => $response,
                         ]);
