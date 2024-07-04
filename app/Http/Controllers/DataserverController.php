@@ -21,7 +21,7 @@ class DataserverController extends Controller
     {
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://easyaccess.com.ng/api/data.php",
+//            CURLOPT_URL => "https://easyaccess.com.ng/api/data.php",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -53,7 +53,8 @@ class DataserverController extends Controller
     {
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://pay.sammighty.com.ng/api/data",
+            CURLOPT_URL => "",
+//            CURLOPT_URL => "https://pay.sammighty.com.ng/api/data",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
