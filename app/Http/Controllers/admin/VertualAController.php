@@ -107,13 +107,13 @@ public function regenerateaccount($request)
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS =>'{
    "firstname": "'.$input['name'].'",
-        "lastname": "'.$input['username'].'",
-        "address": "'.$input['address'].'",
-        "gender": "'.$input['gender'].'",
+        "lastname": "'.$input['username'].'",.
+        "address": "Ondo Nigeria",
+        "gender": "Male",
         "email": "'.$input['email'].'",
-        "phone": "'.$input['phone'].'",
-        "dob": "'.$input['dob'].'",
-        "provider": "safehaven"
+        "phone": "08146328645",
+        "dob": "1989-12-11",
+        "provider": "netbank"
 }',
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
@@ -166,13 +166,13 @@ public function generateaccount($request)
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS =>'{
    "firstname": "'.$input['name'].'",
-        "lastname": "'.$input['username'].'",
-        "address": "'.$input['address'].'",
-        "gender": "'.$input['gender'].'",
+        "lastname": "'.$input['username'].'",.
+        "address": "Ondo Nigeria",
+        "gender": "Male",
         "email": "'.$input['email'].'",
-        "phone": "'.$input['phone'].'",
-        "dob": "'.$input['dob'].'",
-        "provider": "safehaven"
+        "phone": "08146328645",
+        "dob": "1989-12-11",
+        "provider": "netbank"
 }',
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
