@@ -43,6 +43,8 @@
     <link rel="stylesheet" href="{{asset('admin/hp/bootstrap.min.css')}}" />
     <link rel="stylesheet" href="{{asset('admin/hp/main.css')}}" />
     <script src="{{ asset('js/Chart.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 </head>
 
