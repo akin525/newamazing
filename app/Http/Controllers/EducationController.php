@@ -68,12 +68,12 @@ $request->validate([
 ]);
     $user = User::find($request->user()->id);
     $serve = server::where('status', '1')->first();
-    $product=easy::where('network', 'WAEC')->first();
+    $product=samm::where('network', 'WAEC')->first();
 
     if ($user->apikey == '') {
-        $amount = $product->tamount *$request->value;
+        $amount = $product->tamount ;
     } elseif ($user != '') {
-        $amount = $product->ramount *$request->value;
+        $amount = $product->ramount ;
     }
 
     if ($user->wallet < $amount) {
@@ -136,7 +136,7 @@ $request->validate([
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "POST",
             CURLOPT_POSTFIELDS => array(
-                'value' =>$request->value,
+                'value' =>1,
             ),
             CURLOPT_HTTPHEADER => array(
                 "apikey: sk-ui8pjndeJA3ATMNIhgHw", //replace this with your authorization_token
@@ -185,13 +185,11 @@ public function neco(Request $request)
     ]);
     $user = User::find($request->user()->id);
     $serve = server::where('status', '1')->first();
-    $product=easy::where('network', 'NECO')->first();
+    $product=samm::where('network', 'NECO')->first();
 
-    if ($user->apikey == '') {
-        $amount = $product->tamount *$request->value;
-    } elseif ($user != '') {
-        $amount = $product->ramount *$request->value;
-    }
+
+        $amount = $product->tamount ;
+
 
     if ($user->wallet < $amount) {
         $mg = "You Cant Make Purchase Above" . "NGN" . $amount . " from your wallet. Your wallet balance is NGN $user->wallet. Please Fund Wallet And Retry or Pay Online Using Our Alternative Payment Methods.";
@@ -200,13 +198,13 @@ public function neco(Request $request)
 
 
     }
-    if ($request->amount < 0) {
-
-        $mg = "error transaction";
-        return response()->json($mg, Response::HTTP_BAD_REQUEST );
-
-
-    }
+//    if ($request->amount < 0) {
+//
+//        $mg = "error transaction";
+//        return response()->json($mg, Response::HTTP_BAD_REQUEST );
+//
+//
+//    }
     $bo = bo::where('refid', $request->id)->first();
     if (isset($bo)) {
         $mg = "duplicate transaction";
@@ -216,8 +214,6 @@ public function neco(Request $request)
     } else {
 
         $user = User::find($request->user()->id);
-//                $bt = data::where("id", $request->productid)->first();
-
 
         $gt = $user->wallet - $amount;
 
@@ -250,7 +246,7 @@ public function neco(Request $request)
             CURLOPT_CUSTOMREQUEST => "POST",
             CURLOPT_POSTFIELDS => array(
                 'refid'=>$request->id,
-                'value' =>$request->value,
+                'value' =>1,
             ),
             CURLOPT_HTTPHEADER => array(
                 "apikey: sk-ui8pjndeJA3ATMNIhgHw", //replace this with your authorization_token
