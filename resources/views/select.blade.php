@@ -37,6 +37,7 @@
                             <option value="AIRTEL">AIRTEL</option>
                         @elseif($serve->name=='sammighty')
                             <option value="MTN">MTN</option>
+                            <option value="MTN2">MTN-SME2</option>
                             <option value="GLO">GLO</option>
                             <option value="GLO_CG">GLO_CG</option>
                             <option value="9MOBILE">9MOBILE</option>
