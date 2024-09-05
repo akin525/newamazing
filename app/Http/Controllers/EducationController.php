@@ -137,6 +137,7 @@ $request->validate([
             CURLOPT_CUSTOMREQUEST => "POST",
             CURLOPT_POSTFIELDS => array(
                 'value' =>1,
+                'refid'=>$request->id,
             ),
             CURLOPT_HTTPHEADER => array(
                 "apikey: sk-ui8pjndeJA3ATMNIhgHw", //replace this with your authorization_token
