@@ -20,7 +20,7 @@
         @endif
 
             <!--HTML Form-->
-            <span style="font-size: 20px"><b>Do you know?</b></span> You can own a professional VTU website like <a href="https://amazingdata.com.ng">https://amazingdata.com.ng</a> to resell all our products ranging from <b>DATA, AIRTIME, EDUCATIONAL PINS (WAEC, NECO, NABTEB), CABLE TV SUBSCRIPTION AND ELECTRICITY BILL PAYMENTS at your own prices?</b> Yes, you can set your own prices on your website and your customers will buy at your set prices!
+            <span style="font-size: 20px"><b>Do you know?</b></span> You can own a professional VTU website like <a href="https://bytebase.com.ng">https://bytebase.com.ng</a> to resell all our products ranging from <b>DATA, AIRTIME, EDUCATIONAL PINS (WAEC, NECO, NABTEB), CABLE TV SUBSCRIPTION AND ELECTRICITY BILL PAYMENTS at your own prices?</b> Yes, you can set your own prices on your website and your customers will buy at your set prices!
 
             <br>
             Lets see more details below:
@@ -38,13 +38,13 @@
                 <li>Website will be ready between <b>5days-2weeks</b> from date of strike of deal (Depending on workload and other circumstances).</li>
             </ol><br><br><span><b>REQUIREMENT/THINGS TO SUPPLY(For the Website Creation):</b></span><ol>
                 <li>Full Name</li>
-                <li>Website Name e.g. AmazingData</li>
-                <li>Website Address e.g amazingdata.com.ng</li>
+                <li>Website Name e.g. bytebase</li>
+                <li>Website Address e.g bytebase.com.ng</li>
                 <li>Website Contact Phone Number</li>
                 <li>Business Logo</li>
                 <li>Website Contact address </li>
                 <li>Account Details; your bank account details that your users will pay money into for manual funding.</li>
-                <li>Login to your <a href="https://amazingdata.com">https://amazingdata.com.ng</a> Account, on the sidebar, click on API Documentation, copy your Authorization Token (long alphabets/digits shown) and send to us. Note: this must not be seen by anyone else.</li>
+                <li>Login to your <a href="https://bytebase.com">https://bytebase.com.ng</a> Account, on the sidebar, click on API Documentation, copy your Authorization Token (long alphabets/digits shown) and send to us. Note: this must not be seen by anyone else.</li>
                 <li>Create an Account with <a href="https://paystack.com">https://paystack.com</a></li>
                 <li>You will also be required to Create an Account with <a href="https://monnigy.com">https://monnify.com</a> For Auto-Wallet Funding but this will be needed when the website is live. So you can ignore this for now.</li>
             </ol><br><br><span><b>SAMPLE WEBSITE:</b></span><ol>
@@ -66,7 +66,7 @@
             </ol><br><br><span><b>PRODUCTS COST PRICES (How much you will be buying products):</b></span><ol>
                 <li>Click on the link below to see our current prices for API users (Website Owners).
                     <br>
-                    <a target="_blank" href="https://amazingdata.com.ng/#testimonials">https://amazingdata.com/#pricing</a>. This will be your supply prices (the prices you are buying). You can then add your own prices on your website Admin Panel (Backend).</li>
+                    <a target="_blank" href="https://bytebase.com.ng/#testimonials">https://bytebase.com/#pricing</a>. This will be your supply prices (the prices you are buying). You can then add your own prices on your website Admin Panel (Backend).</li>
             </ol><br><br><span><b>PRIVACY/CONDITIONS:</b></span><ol>
                 <li>All information/data supplied to us are highly encrypted and are not shared with any third party (This is also required on your end).</li>
                 <li>You will be connected to our Website/API. (Thats why it is called a reseller or affiliate or partner website). If there is any need to add another company/API, further negotiations will be required.</li>

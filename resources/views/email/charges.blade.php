@@ -37,7 +37,7 @@
                                                         <td valign='top' align='center' style='padding:0;Margin:0;width:560px'>
                                                             <table width='100%' cellspacing='0' cellpadding='0' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                                                                 <tr>
-                                                                    <td style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px' align='center'><img src='https://amazingdata.com.ng/ama.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='150'></td>
+                                                                    <td style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px' align='center'><img src='https://bytebase.com.ng/ama.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='150'></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td align='center' style='padding:0;Margin:0;padding-bottom:10px'>Account Being Charge By Admin<br></td>
@@ -51,7 +51,7 @@
                         </table>
                         <table class='es-content' cellspacing='0' cellpadding='0' align='center' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%'>
                             <tr>
-                                <td style='padding:0;Margin:0;background-image:url(https://rszomp.stripocdn.email/content/guids/CABINET_c2a5428bd0934f3fbd34e54cb3601b70/images/32801632220122584.jpg);background-repeat:no-repeat;background-position:left top' background='https://mobile.Amazing-Data.com.ng/images/bn.jpeg' align='center'>
+                                <td style='padding:0;Margin:0;background-image:url(https://rszomp.stripocdn.email/content/guids/CABINET_c2a5428bd0934f3fbd34e54cb3601b70/images/32801632220122584.jpg);background-repeat:no-repeat;background-position:left top' background='https://mobile.Bytebase.com.ng/images/bn.jpeg' align='center'>
                                     <table class='es-content-body' cellspacing='0' cellpadding='0' bgcolor='#ffffff' align='center' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:600px'>
                                         <tr>
                                             <td align='left' style='Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px'>
@@ -71,7 +71,7 @@
                                                 </table></td>
                                         </tr>
                                         <tr>
-                                            <td style='Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px;background-image:url(https://rszomp.stripocdn.email/content/guids/CABINET_c2a5428bd0934f3fbd34e54cb3601b70/images/32801632220122584.jpg);background-repeat:no-repeat;background-position:left top' background='https://amazingdata.com.ng/ama.jpeg' align='left'>
+                                            <td style='Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px;background-image:url(https://rszomp.stripocdn.email/content/guids/CABINET_c2a5428bd0934f3fbd34e54cb3601b70/images/32801632220122584.jpg);background-repeat:no-repeat;background-position:left top' background='https://bytebase.com.ng/ama.jpeg' align='left'>
                                                 <!--[if mso]><table style='width:560px' cellpadding='0' cellspacing='0'><tr><td style='width:280px' valign='top'><![endif]-->
                                                 <table class='es-left' cellspacing='0' cellpadding='0' align='left' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left'>
                                                     <tr>
@@ -105,7 +105,7 @@
                                                         <td align='left' style='padding:0;Margin:0;width:560px'>
                                                             <table width='100%' cellspacing='0' cellpadding='0' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                                                                 <tr>
-                                                                    <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:21px;color:#405189;font-size:14px'>Got a question?&nbsp;Email us at info@amazingdata.com.ng</p></td>
+                                                                    <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:21px;color:#405189;font-size:14px'>Got a question?&nbsp;Email us at info@bytebase.com.ng</p></td>
                                                                 </tr>
                                                             </table></td>
                                                     </tr>
@@ -136,7 +136,7 @@
                                                                         </table></td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td align='center' style='padding:0;Margin:0;padding-bottom:35px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'> If you have any questions/issues, please contact us at&nbsp;<a href='mailto:info@amazingdata.com.ng' target='_blank' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#405189;font-size:12px'></a>info@amazingdata.com.ng<br>Thanks for choosing us</p></td>
+                                                                    <td align='center' style='padding:0;Margin:0;padding-bottom:35px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'> If you have any questions/issues, please contact us at&nbsp;<a href='mailto:info@bytebase.com.ng' target='_blank' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#405189;font-size:12px'></a>info@bytebase.com.ng<br>Thanks for choosing us</p></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td style='padding:0;Margin:0'>

@@ -120,6 +120,14 @@ class EkectController
     }
     public function payelect(Request $request)
     {
+        $request->validate([
+            'amount' => [
+                'required',
+                'regex:/^[0-9]+$/', // Ensures the amount contains only digits (no special characters)
+            ],[
+                'amount.regex' => 'Amount must not contain special characters.',
+            ]
+        ]);
         if (Auth::check()) {
             $user = User::find($request->user()->id);
             $tv = data::where('id', $request->productid)->first();
@@ -209,7 +217,7 @@ class EkectController
                     $ph = $request->number."| Token:".$tran2;
 
                     $receiver = $user->email;
-                    $admin = 'info@amazingdata.com.ng';
+                    $admin = 'info@bytebase.com.ng';
 
 //                    Mail::to($receiver)->send(new Emailtrans($bo));
 //                    Mail::to($admin)->send(new Emailtrans($bo));

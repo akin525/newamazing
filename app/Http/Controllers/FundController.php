@@ -119,7 +119,7 @@ $amount1=$amount - $char->charges;
                 $user->wallet = $gt;
                 $user->save();
 //
-                $admin= 'info@amazingdata.com.ng';
+                $admin= 'info@bytebase.com.ng';
 
                 $receiver= $user->email;
 
@@ -127,7 +127,7 @@ $amount1=$amount - $char->charges;
                 Mail::to($admin)->send(new Emailcharges($charp ));
 
 
-                $admin= 'info@amazingdata.com.ng';
+                $admin= 'info@bytebase.com.ng';
 
               $receiver= $user->email;
                 Mail::to($receiver)->send(new Emailfund($deposit ));

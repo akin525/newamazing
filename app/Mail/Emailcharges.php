@@ -30,6 +30,6 @@ class Emailcharges extends Mailable
     public function build()
     {
         $charp= $this->charp;
-        return $this->markdown('email.charges',['charp' => $charp])->subject(   $charp['username'].' |Account Being Charge |'.'Amazing-Data-'. $charp['payment_ref']);
+        return $this->markdown('email.charges',['charp' => $charp])->subject(   $charp['username'].' |Account Being Charge |'.'Bytebase-'. $charp['payment_ref']);
     }
 }

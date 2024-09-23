@@ -1,5 +1,6 @@
 @include('admin.layouts.sidebar')
 
+<script src="{{ asset('js/Chart.min.js') }}"></script>
 
 <div class="midde_cont">
     <div class="container-fluid">
@@ -347,6 +348,60 @@
                             }
                         });
                     });
+            </script>
+
+            <script>
+                $(function () {
+                    "use strict";
+                    // Bar chart
+                    new Chart(document.getElementById("bar-chart"), {
+                        type: 'bar',
+                        data: {
+                            labels: ["Total Users Wallet", "Total Bills", "Deposits"],
+                            datasets: [
+                                {
+                                    label: "Population (millions)",
+                                    backgroundColor: ["#03a9f4", "#e861ff","#08ccce"],
+                                    data: [200000,300000,400000]
+                                }
+                            ]
+                        },
+                        options: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: 'System Payment Chart'
+                            }
+                        }
+                    });
+
+
+                    // line second
+                });
+            </script>
+
+            <script>
+                // Horizental Bar Chart
+                new Chart(document.getElementById("bar-chart-horizontal"), {
+                    type: 'horizontalBar',
+                    data: {
+                        labels: ["All Users", "Active Users"],
+                        datasets: [
+                            {
+                                label: "Total Users",
+                                backgroundColor: ["#0000FF","#00FF00"],
+                                data: [250,200]
+                            }
+                        ]
+                    },
+                    options: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: 'System Customers Chart'
+                        }
+                    }
+                });
             </script>
 
 

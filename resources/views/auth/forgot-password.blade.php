@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Amazing-Data</title>
+    <title>Bytebase</title>
     <!-- Favicon icon -->
-    <link rel="icon" sizes="16x16" href="{{asset('ama.jpg')}}">
+    <link rel="icon" sizes="16x16" href="{{asset('byte.jpg')}}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/plugin.min.css')}}">
@@ -29,8 +29,8 @@
                     <div class="edit-profile">
                         <div class="edit-profile__logos">
                             <a href="{{url('/')}}">
-                                <img class="dark" src="{{asset('ama.jpg')}}" alt>
-                                <img class="light" src="{{asset('ama.jpg')}}" alt>
+                                <img class="dark" src="{{asset('byte.jpg')}}" alt>
+                                <img class="light" src="{{asset('byte.jpg')}}" alt>
                             </a>
                         </div>
                         <div class="card border-0">

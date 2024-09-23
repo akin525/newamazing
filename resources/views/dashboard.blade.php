@@ -37,7 +37,7 @@
 
 
                             </div>
-                            <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.amazingdata " target="_blank"><img width="200" src="{{asset('play.png')}}"/> Download </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.bytebase " target="_blank"><img width="200" src="{{asset('play.png')}}"/> Download </a>
 
                         </div>
 
@@ -120,7 +120,7 @@
                             <div class="card-body">
                                 <h6>Your Referal Link</h6>
                                 <!-- The text field -->
-                                <input id="myInput" type="text" class="form-control" value="https://amazingdata.com.ng/register?refer={{$user->username}}" >
+                                <input id="myInput" type="text" class="form-control" value="https://bytebase.com.ng/register?refer={{$user->username}}" >
 
                                 <!-- The button used to copy the text -->
                                 <button class="btn btn-info" onclick="myFunction()">Copy Referral Link</button>

@@ -62,8 +62,8 @@ public function credit(Request $request)
 
             $wallet->wallet = $gt;
             $wallet->save();
-//            $admin = 'admin@Amazing-Data.com.ng';
-//            $admin2 = 'Amazing-Data18@gmail.com';
+//            $admin = 'admin@Bytebase.com.ng';
+//            $admin2 = 'Bytebase18@gmail.com';
 
             $receiver = $user->email;
 //            Mail::to($receiver)->send(new Emailfund($deposit));
@@ -117,8 +117,8 @@ public function charge(Request $request)
         $wallet->save();
 
 
-//        $admin = 'admin@Amazing-Data.com.ng';
-//        $admin2 = 'Amazing-Data18@gmail.com';
+//        $admin = 'admin@Bytebase.com.ng';
+//        $admin2 = 'Bytebase18@gmail.com';
 
         $receiver = $user->email;
 //        Mail::to($receiver)->send(new Emailcharges($charp));

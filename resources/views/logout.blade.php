@@ -16,7 +16,7 @@
                                         <div class="position-relative h-100 d-flex flex-column">
                                             <div class="mb-4">
                                                 <a href="{{route('login')}}" class="d-block">
-                                                    <h2 class="text-capitalize text-white"><b>Amazing-Data</b></h2>
+                                                    <h2 class="text-capitalize text-white"><b>Bytebase</b></h2>
                                                 </a>
                                             </div>
                                             <div class="mt-auto">
@@ -55,7 +55,7 @@
 
                                         <div class="mt-4 pt-2">
                                             <h5>You are Logged Out</h5>
-                                            <p class="text-muted">Thank you for using <span class="fw-semibold">Amazing-Data</span></p>
+                                            <p class="text-muted">Thank you for using <span class="fw-semibold">Bytebase</span></p>
                                             <div class="mt-4">
                                                 <a href="{{route('login')}}" class="btn btn-success w-100">Sign In</a>
                                             </div>
@@ -84,7 +84,7 @@
                     <div class="col-lg-12">
                         <div class="text-center">
                             <p class="mb-0">&copy;
-                                <script>document.write(new Date().getFullYear())</script> Amazing-Data<i class="mdi mdi-heart text-danger"></i>
+                                <script>document.write(new Date().getFullYear())</script> Bytebase<i class="mdi mdi-heart text-danger"></i>
                             </p>
                         </div>
                     </div>

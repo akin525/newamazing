@@ -66,7 +66,7 @@
             <div class="sidebar_blog_1">
                 <div class="sidebar-header">
                     <div class="logo_section">
-                        <a href="#"><img class="logo_icon img-responsive" src="{{asset('ama.jpg')}}" alt="#" /></a>
+                        <a href="#"><img class="logo_icon img-responsive" src="{{asset('byte.jpg')}}" alt="#" /></a>
                     </div>
                 </div>
                 <div class="sidebar_user_info">
@@ -222,7 +222,7 @@
                     <div class="full">
                         <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
                         <div class="logo_section">
-                            <a href="{{ route('admin/dashboard') }}"><img class="img-responsive" src="{{asset('ama.jpg')}}" alt="#" /></a>
+                            <a href="{{ route('admin/dashboard') }}"><img class="img-responsive" src="{{asset('byte.jpg')}}" alt="#" /></a>
                         </div>
                     </div>
                 </nav>

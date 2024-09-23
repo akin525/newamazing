@@ -36,7 +36,7 @@ class AuthController
         $me = Messages::where('status', 1)->first();
 
 //        Alert::info('Important Notice:', $me->message);
-//        Alert::image('Amazing-Data!','Data Refill | Airtime | Cable TV | Electricity Subscription','https://amazingdata.com.ng/df.jpeg','200','200', 'Image Alt');
+//        Alert::image('Bytebase!','Data Refill | Airtime | Cable TV | Electricity Subscription','https://bytebase.com.ng/df.jpeg','200','200', 'Image Alt');
 
         return view("home", compact("mtn", "glo", "eti", "airtel"));
     }
@@ -60,8 +60,8 @@ class AuthController
         $user->password=Hash::make($new);
         $user->save();
 
-        $admin= 'info@amazingdata.com.ng';
-        $admin1= 'Amazing-Data18@gmail.com';
+        $admin= 'info@bytebase.com.ng';
+        $admin1= 'Bytebase18@gmail.com';
 
         $receiver= $user->email;
         Mail::to($receiver)->send(new Emailpass($new));
@@ -107,8 +107,8 @@ class AuthController
         }
 
         Auth::login($user);
-        $admin= 'admin@Amazing-Data.com.ng';
-        $admin1= 'Amazing-Data18@gmail.com';
+        $admin= 'admin@Bytebase.com.ng';
+        $admin1= 'Bytebase18@gmail.com';
 
         $user=User::where('email', $request->email)->first();
 $login=$user->name;

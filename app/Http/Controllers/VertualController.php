@@ -130,7 +130,7 @@ class VertualController
                 ]);
 
 
-                $admin= 'admin@Amazing-Data.com.ng';
+                $admin= 'admin@Bytebase.com.ng';
 
                 $receiver= $user->email;
                 Mail::to($receiver)->send(new Emailcharges($charp ));
@@ -197,7 +197,7 @@ class VertualController
                 ]);
 
 
-                $admin= 'admin@Amazing-Data.com.ng';
+                $admin= 'admin@Bytebase.com.ng';
 
                 $receiver= $user->email;
                 Mail::to($receiver)->send(new Emailcharges($charp ));

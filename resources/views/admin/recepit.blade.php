@@ -64,7 +64,7 @@
                                                 <td class="es-m-p0r" valign="top" align="center" style="padding:0;Margin:0;width:560px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr>
-                                                            <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;line-height:22px;mso-line-height-rule:exactly;font-family:merriweather, georgia, 'times new roman', serif;font-size:18px;font-style:normal;font-weight:bold;color:#ffffff"><strong>Amazing-Data<br>INVOICE</strong></h3></td>
+                                                            <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;line-height:22px;mso-line-height-rule:exactly;font-family:merriweather, georgia, 'times new roman', serif;font-size:18px;font-style:normal;font-weight:bold;color:#ffffff"><strong>Bytebase<br>INVOICE</strong></h3></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
@@ -84,7 +84,7 @@
                                                 <td align="left" style="padding:0;Margin:0;width:560px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr>
-                                                            <td align="center" style="padding:0;Margin:0"><h5 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:Oswald, sans-serif;font-size:20px;font-style:normal;font-weight:bold;color:#363E44">TRANSACTION</h5><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#363E44;font-size:16px">Amazing-Data18@gmail.com</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#363E44;font-size:16px"><br></p></td>
+                                                            <td align="center" style="padding:0;Margin:0"><h5 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:Oswald, sans-serif;font-size:20px;font-style:normal;font-weight:bold;color:#363E44">TRANSACTION</h5><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#363E44;font-size:16px">Bytebase18@gmail.com</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#363E44;font-size:16px"><br></p></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>

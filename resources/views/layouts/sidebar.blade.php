@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{asset('css/plugin.min.css')}}">
     <link rel="stylesheet" href="{{asset('style.css')}}">
 
-    <link rel="icon"  sizes="16x16" href="{{asset('ama.jpg')}}">
+    <link rel="icon"  sizes="16x16" href="{{asset('byte.jpg')}}">
 
     <link rel="stylesheet" href="{{asset('unicons.iconscout.com/release/v4.0.0/css/line.css')}}">
     <!-- SweetAlert CSS -->
@@ -175,7 +175,7 @@
                         </a>
                     </li>
                         <li>
-                        <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.amazingdata" target="_blank" class="active">
+                        <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.bytebase" target="_blank" class="active">
                             <span class="nav-icon uil uil-google-play"></span>
                             <span class="menu-text">Download Our App</span>
                         </a>
@@ -325,7 +325,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="footer-copyright">
-                            <p><span>© 2023</span><a href="#">Amazing-Data</a>
+                            <p><span>© 2023</span><a href="#">Bytebase</a>
                             </p>
                         </div>
                     </div>

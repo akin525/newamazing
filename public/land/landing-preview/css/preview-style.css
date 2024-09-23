@@ -34,7 +34,7 @@ h5, h6 {
       font-size: 10px;
       padding: 3px 15px;
       color: #000;
-      background: #5840FF33;
+      background: #00000033;
       border-radius: 8px;
       text-transform: uppercase;
       margin-left: 10px;
@@ -69,10 +69,10 @@ h5, h6 {
         top: 0;
         width: 100%;
         height: 2px;
-        background: -webkit-gradient(linear, left top, right top, color-stop(10%, #0c3df4), color-stop(45%, #5840FF));
-        background: -webkit-linear-gradient(left, #0c3df4 10%, #5840FF 45%);
-        background: -o-linear-gradient(left, #0c3df4 10%, #5840FF 45%);
-        background: linear-gradient(to right, #0c3df4 10%, #5840FF 45%); }
+        background: -webkit-gradient(linear, left top, right top, color-stop(10%, #0c3df4), color-stop(45%, #000000));
+        background: -webkit-linear-gradient(left, #0c3df4 10%, #00000045%);
+        background: -o-linear-gradient(left, #0c3df4 10%, #00000045%);
+        background: linear-gradient(to right, #0c3df4 10%, #00000045%); }
       .nav-preview .dropDown .dropDownMenu .dropdown-items {
         position: relative;
         text-transform: capitalize;
@@ -107,10 +107,10 @@ h5, h6 {
             top: 0;
             width: 100%;
             height: 2px;
-            background: -webkit-gradient(linear, left top, right top, color-stop(10%, #0c3df4), color-stop(45%, #5840FF));
-            background: -webkit-linear-gradient(left, #0c3df4 10%, #5840FF 45%);
-            background: -o-linear-gradient(left, #0c3df4 10%, #5840FF 45%);
-            background: linear-gradient(to right, #0c3df4 10%, #5840FF 45%); }
+            background: -webkit-gradient(linear, left top, right top, color-stop(10%, #0c3df4), color-stop(45%, #000000));
+            background: -webkit-linear-gradient(left, #0c3df4 10%, #00000045%);
+            background: -o-linear-gradient(left, #0c3df4 10%, #00000045%);
+            background: linear-gradient(to right, #0c3df4 10%, #00000045%); }
           .nav-preview .dropDown .dropDownMenu .dropdown-items .subDropDown .subLink {
             position: relative;
             text-transform: capitalize;
@@ -521,7 +521,7 @@ header {
       background: #FF5733; }
     .demos .item.item_ribbon.blue_grad::after, .demos .item.item_ribbon.blue_grad::before,
     .demos .item.item_ribbon.blue_grad .new_demo_label {
-      background: -webkit-linear-gradient(left, #0c3df4 10%, #5840FF 45%, #5840FF, #0c3df4); }
+      background: -webkit-linear-gradient(left, #0c3df4 10%, #00000045%, #000000, #0c3df4); }
     .demos .item.item_ribbon.app_grad::after, .demos .item.item_ribbon.app_grad::before,
     .demos .item.item_ribbon.app_grad .new_demo_label {
       background: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));

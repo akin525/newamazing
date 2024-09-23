@@ -30,6 +30,6 @@ class Emailwaec extends Mailable
     public function build()
     {
         $waec= $this->waec;
-        return $this->markdown('email.waec',['bo' => $waec])->subject(   $waec['username'].' |WAEC-PIN|'.'Amazing-Data');
+        return $this->markdown('email.waec',['bo' => $waec])->subject(   $waec['username'].' |WAEC-PIN|'.'Bytebase');
     }
 }

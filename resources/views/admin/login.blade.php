@@ -2,7 +2,7 @@
     <body class="inner_page login">
     <div id="loading-wrapper">
         <div class="spinner-border"></div>
-        Amazing-Data......
+        Bytebase......
     </div>
     <div class="full_container">
         <div class="container">

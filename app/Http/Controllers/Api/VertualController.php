@@ -113,7 +113,7 @@ class VertualController
                 $user = user::where('username', $wallet->username)->first();
 
 
-                $admin= 'info@amazingdata.com.ng';
+                $admin= 'info@bytebase.com.ng';
 
                 $receiver= $user->email;
 //                Mail::to($receiver)->send(new Emailcharges($charp ));
@@ -139,7 +139,7 @@ class VertualController
                     CURLOPT_SSL_VERIFYHOST => 0,
                     CURLOPT_SSL_VERIFYPEER => 0,
                     CURLOPT_CUSTOMREQUEST => 'POST',
-                    CURLOPT_POSTFIELDS => array('refid' =>'Amazing-Data'.$refid, 'amount' => $amount),
+                    CURLOPT_POSTFIELDS => array('refid' =>'Bytebase'.$refid, 'amount' => $amount),
 
                     CURLOPT_HTTPHEADER => array(
                         'apikey: RENO-63939122379b03.42488714'
@@ -210,7 +210,7 @@ class VertualController
                 $user = user::where('username', $wallet->username)->first();
 
 
-                $admin= 'info@amazingdata.com.ng';
+                $admin= 'info@bytebase.com.ng';
 
                 $receiver= $user->email;
                 Mail::to($receiver)->send(new Emailcharges($charp ));
@@ -280,7 +280,7 @@ class VertualController
                 $user = user::where('username', $wallet->username)->first();
 
 
-                $admin= 'info@amazingdata.com.ng';
+                $admin= 'info@bytebase.com.ng';
 
                 $receiver= $user->email;
                 Mail::to($receiver)->send(new Emailfund($deposit));

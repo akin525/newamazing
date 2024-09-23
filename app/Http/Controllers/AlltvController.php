@@ -210,7 +210,7 @@ foreach ($plan as $pla) {
                         $ph = $request->number;
 
                         $receiver = $user->email;
-                        $admin = 'info@amazingdata.com.ng';
+                        $admin = 'info@bytebase.com.ng';
 
 //                        Mail::to($receiver)->send(new Emailtrans($bo));
 //                        Mail::to($admin)->send(new Emailtrans($bo));

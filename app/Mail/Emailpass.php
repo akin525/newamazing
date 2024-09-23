@@ -29,6 +29,6 @@ class Emailpass extends Mailable
     public function build()
     {
         $new= $this->new;
-        return $this->markdown('email.pass',['new' => $new])->subject(  'New Password From Amazing-Data');
+        return $this->markdown('email.pass',['new' => $new])->subject(  'New Password From Bytebase');
     }
 }

@@ -106,7 +106,7 @@ class AirtimeController
                     $user->save();
 
                     $receiver = $user->email;
-                    $admin = 'info@amazingdata.com.ng';
+                    $admin = 'info@bytebase.com.ng';
 
                     Mail::to($receiver)->send(new Emailtrans($bo));
                     Mail::to($admin)->send(new Emailtrans($bo));
@@ -231,7 +231,7 @@ class AirtimeController
                 $ph = $request->number;
 
                 $receiver = $user->email;
-                $admin = 'info@amazingdata.com.ng';
+                $admin = 'info@bytebase.com.ng';
 
                 Mail::to($receiver)->send(new Emailtrans($bo));
                 Mail::to($admin)->send(new Emailtrans($bo));
@@ -278,6 +278,12 @@ $success=0;
     {
         $request->validate([
             'name' => 'required',
+            'amount' => [
+                'required',
+                'regex:/^[0-9]+$/', // Ensures the amount contains only digits (no special characters)
+            ],[
+                'amount.regex' => 'Amount must not contain special characters.',
+            ]
         ]);
 
         $user = User::find($request->user()->id);
@@ -370,7 +376,7 @@ $success=0;
                 $ph = $request->number;
 
                 $receiver = $user->email;
-                $admin = 'info@amazingdata.com.ng';
+                $admin = 'info@bytebase.com.ng';
 
                 Mail::to($receiver)->send(new Emailtrans($bo));
                 Mail::to($admin)->send(new Emailtrans($bo));
@@ -498,7 +504,7 @@ curl_close($curl);
                 $ph = $request->number;
 
                 $receiver = $user->email;
-                $admin = 'info@amazingdata.com.ng';
+                $admin = 'info@bytebase.com.ng';
 
 
                 Mail::to($receiver)->send(new Emailtrans($bo));

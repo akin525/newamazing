@@ -75,7 +75,7 @@ public function lis()
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS =>'{
-    "url" : "https://mobile.Amazing-Data.com.ng/api/honor"
+    "url" : "https://mobile.Bytebase.com.ng/api/honor"
 }',
         CURLOPT_HTTPHEADER => array(
             'Authorization: Bearer {{Token}}',

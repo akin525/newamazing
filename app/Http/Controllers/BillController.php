@@ -130,7 +130,7 @@ class BillController extends Controller
                         $am = "$product->plan  was successful delivered to";
                         $ph = $request->number;
                         $receiver = $user->email;
-                        $admin = 'info@amazingdata.com.ng';
+                        $admin = 'info@bytebase.com.ng';
 
                         Mail::to($receiver)->send(new Emailtrans($bo));
                         Mail::to($admin)->send(new Emailtrans($bo));
@@ -226,7 +226,7 @@ class BillController extends Controller
                         $am = "$product->plan  was successful delivered to";
                         $ph = $request->number;
                         $receiver = $user->email;
-                        $admin = 'info@amazingdata.com.ng';
+                        $admin = 'info@bytebase.com.ng';
 
                         Mail::to($receiver)->send(new Emailtrans($bo));
                         Mail::to($admin)->send(new Emailtrans($bo));

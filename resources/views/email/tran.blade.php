@@ -35,7 +35,7 @@
                                                         <td class='es-m-p0r' valign='top' align='center' style='padding:0;Margin:0;width:560px'>
                                                             <table width='100%' cellspacing='0' cellpadding='0' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                                                                 <tr>
-                                                                    <td style='padding:0;Margin:0;padding-bottom:20px;font-size:0px' align='center'><img  src='https://amazingdata.com.ng/ama.jpeg' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' title='Logo' width='150' height='150'></td>
+                                                                    <td style='padding:0;Margin:0;padding-bottom:20px;font-size:0px' align='center'><img  src='https://bytebase.com.ng/ama.jpeg' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' title='Logo' width='150' height='150'></td>
                                                                 </tr>
                                                             </table></td>
                                                     </tr>
@@ -69,7 +69,7 @@
                                                         <td align='left' style='padding:0;Margin:0;width:60px'>
                                                             <table width='100%' cellspacing='0' cellpadding='0' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                                                                 <tr>
-{{--                                                                    <td class='es-m-txt-c' style='padding:0;Margin:0;font-size:0px' align='center'><a target='_blank' href='https://viewstripo.email' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px'><img src='https://mobile.Amazing-Data.com.ng/images/bn.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='150' height='150'></a></td>--}}
+{{--                                                                    <td class='es-m-txt-c' style='padding:0;Margin:0;font-size:0px' align='center'><a target='_blank' href='https://viewstripo.email' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px'><img src='https://mobile.Bytebase.com.ng/images/bn.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='150' height='150'></a></td>--}}
                                                                 </tr>
                                                             </table></td>
                                                     </tr>
@@ -137,7 +137,7 @@
                                                                         </table></td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td align='center' style='padding:0;Margin:0;padding-bottom:35px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'></p><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'>If you have any questions/issues, please contact us at&nbsp;<a href='mailto:info@amazingdata.com.ng' target='_blank' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#405189;font-size:12px'></a>info@amazingdata.com.ng<br>Thanks for choosing us<br></p></td>
+                                                                    <td align='center' style='padding:0;Margin:0;padding-bottom:35px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'></p><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:18px;color:#405189;font-size:12px'>If you have any questions/issues, please contact us at&nbsp;<a href='mailto:info@bytebase.com.ng' target='_blank' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#405189;font-size:12px'></a>info@bytebase.com.ng<br>Thanks for choosing us<br></p></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td style='padding:0;Margin:0'>

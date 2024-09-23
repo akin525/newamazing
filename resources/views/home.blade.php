@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Amazing-Data </title>
+    <title>Bytebase </title>
     <meta content="We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and more" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="https://amazingdata.com.ng/ama.jpg" rel="icon">
-    <link href="https://amazingdata.com.ng/ama.jpg" rel="apple-touch-icon">
+    <link href="https://bytebase.com.ng/byte.jpg" rel="icon">
+    <link href="https://bytebase.com.ng/byte.jpg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -38,7 +38,7 @@
 <!-- ---------- loader ---------- -->
 <div id="preloader">
     <div id="loading-wrapper" class="show">
-        <div id="loading-text"> <img src="{{asset('ama.jpg')}}" alt=""> </div>
+        <div id="loading-text"> BYTEBASE</div>
         <div id="loading-content"></div>
     </div>
 </div>
@@ -101,7 +101,7 @@
 <nav class="navbar navbar-expand-lg navbar-light style-1">
     <div class="container">
         <a class="navbar-brand" href="#" data-scroll-nav="0">
-            <img width="100" src="{{asset('ama.jpg')}}" alt="">
+            <img width="50" src="{{asset('byte.jpg')}}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -162,7 +162,7 @@
                 <div class="col-lg-6">
                     <div class="info">
                         <div class="section-head mb-60">
-                            <h6 class="color-main text-uppercase">Welcome To AmazingData!</h6>
+                            <h6 class="color-main text-uppercase">Welcome To bytebase!</h6>
                             <h2>
                                 DATA, AIRTIME, EDUCATIONAL PINS, TV SUBSCRIPTION,
                                 <span class="fw-normal">ELECTRICITY BILLS!!</span>
@@ -181,7 +181,7 @@
                                 <span>Login/Signup</span>
                             </a>
                             @endif
-                            <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.amazingdata" data-lity class="vid-btn">
+                            <a href="https://play.google.com/store/apps/details?id=com.a5starcompany.bytebase" data-lity class="vid-btn">
                                 <img width="200" src="{{asset('play.png')}}"/>
                                 <span>
                                         <br>
@@ -232,7 +232,7 @@
                     <div class="row justify-content-between">
                         <div class="col-lg-5">
                             <div class="title">
-                                <h3 class=" wow fadeInUp slow">“AmazingData is a registered telecommunication vendor known for providing internet services, airtime VTU, cable TV subscriptions, electricity payment,”</h3>
+                                <h3 class=" wow fadeInUp slow">“bytebase is a registered telecommunication vendor known for providing internet services, airtime VTU, cable TV subscriptions, electricity payment,”</h3>
                                 <small class=" wow fadeInUp slow fw-bold">converting airtime to cash..</small>
                             </div>
                         </div>
@@ -494,7 +494,7 @@
                                     <strong>Address : </strong>No 53 Famuyiwa House,Mokin road, Ilaramokin, No 8,New Palace road, Behind UBA Ilaramokin
                                 </li>
                                 <li class="wow fadeInUp">
-                                    <strong>Email : </strong> info@amazingdata.com.ng
+                                    <strong>Email : </strong> info@bytebase.com.ng
                                 </li>
 
                                 <li class="wow fadeInUp">
@@ -563,7 +563,7 @@
                 <div class="col-lg-4">
                     <div class="foot_info">
                         <a href="#" class="logo mb-3">
-                            <img src="{{asset('ama.jpg')}}" alt="">
+                            <img width="50" src="{{asset('byte.jpg')}}" alt="">
                         </a>
                         <div class="text mb-4">
                             Best IT Solutions & Technology WordPress <br>
@@ -578,7 +578,7 @@
                             <li class="d-flex">
                                 <i class="bi bi-envelope me-3"></i>
                                 <a href="#">
-                                    <span>info@amazingdata.com.ng</span>
+                                    <span>info@bytebase.com.ng</span>
                                 </a>
                             </li>
                             <li class="d-flex">
@@ -635,7 +635,7 @@
                             </h6>
                             <ul>
                                 <li>
-                                    <a href="#">About AmazingData </a>
+                                    <a href="#">About bytebase </a>
                                 </li>
                                 <li>
                                     <a href="#">Investors </a>
@@ -683,7 +683,7 @@
             <div class="col-lg-12">
                 <div class="foot">
                     <p>
-                        © 2023 Copyrights by <a href="#" class="text-white text-decoration-underline">AmazingData</a> All Rights Reserved by <a href="#" class="text-white text-decoration-underline"> Amazing</a>
+                        © 2023 Copyrights by <a href="#" class="text-white text-decoration-underline">bytebase</a> All Rights Reserved by <a href="#" class="text-white text-decoration-underline"> Amazing</a>
                     </p>
                 </div>
             </div>

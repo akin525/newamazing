@@ -4,9 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content=" We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and more">
 
-    <title>Amazing-Data</title>
+    <title>Bytebase</title>
     <!-- Favicon icon -->
-    <link rel="icon" sizes="16x16" href="{{asset('ama.jpg')}}">
+    <link rel="icon" sizes="16x16" href="{{asset('byte.jpg')}}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
     <!-- Nucleo Icons -->
     <link href="{{asset('admin/style.css')}}" rel="stylesheet" />

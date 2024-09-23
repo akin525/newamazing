@@ -6,7 +6,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Amazing-Data </title>
+    <title>Bytebase </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and more" name="description" />
     <meta content="Themesbrand" name="author" />

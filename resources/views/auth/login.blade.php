@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Amazing-Data</title>
+    <title>Bytebase</title>
     <!-- Favicon icon -->
-    <link rel="icon" sizes="16x16" href="{{asset('ama.jpg')}}">
+    <link rel="icon" sizes="16x16" href="{{asset('byte.jpg')}}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/plugin.min.css')}}">
@@ -26,8 +26,8 @@
                     <div class="edit-profile">
                         <div class="edit-profile__logos">
                             <a href="{{url('/')}}">
-                                <img class="dark" src="{{asset('ama.jpg')}}" alt>
-                                <img class="light" src="{{asset('ama.jpg')}}" alt>
+                                <img width="50" class="dark" src="{{asset('byte.jpg')}}" alt>
+                                <img width="50" class="light" src="{{asset('byte.jpg')}}" alt>
                             </a>
                         </div>
                         <x-validation-errors  class="alert alert-danger" />
@@ -35,7 +35,7 @@
                         <div class="card border-0">
                             <div class="card-header">
                                 <div class="edit-profile__title">
-                                    <h6>Sign in Amazing Data</h6>
+                                    <h6>Sign in Bytebase</h6>
                                 </div>
 
                             </div>
@@ -69,7 +69,7 @@
                                         <a href="{{ route('password.request') }}">forget password?</a>
                                     </div>
                                     <div class="admin__button-group button-group d-flex pt-1 justify-content-md-start justify-content-center">
-                                        <button type="submit" class="btn btn-primary btn-default w-100 btn-squared text-capitalize lh-normal px-50 signIn-createBtn " id="submitButton">
+                                        <button type="submit" class="btn btn-secondary btn-default w-100 btn-squared text-capitalize lh-normal px-50 signIn-createBtn " id="submitButton">
                                             sign in
                                         </button>
                                     </div>
