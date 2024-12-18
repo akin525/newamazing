@@ -132,8 +132,8 @@ class BillController extends Controller
                         $receiver = $user->email;
                         $admin = 'info@bytebase.com.ng';
 
-                        Mail::to($receiver)->send(new Emailtrans($bo));
-                        Mail::to($admin)->send(new Emailtrans($bo));
+//                        Mail::to($receiver)->send(new Emailtrans($bo));
+//                        Mail::to($admin)->send(new Emailtrans($bo));
                         return response()->json([
                             'status' => 'success',
                             'message' => $am.' '.$ph,
@@ -228,8 +228,8 @@ class BillController extends Controller
                         $receiver = $user->email;
                         $admin = 'info@bytebase.com.ng';
 
-                        Mail::to($receiver)->send(new Emailtrans($bo));
-                        Mail::to($admin)->send(new Emailtrans($bo));
+//                        Mail::to($receiver)->send(new Emailtrans($bo));
+//                        Mail::to($admin)->send(new Emailtrans($bo));
                         return response()->json([
                             'status' => 'success',
                             'message' => $am.' '.$ph,
